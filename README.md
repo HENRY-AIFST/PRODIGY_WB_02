@@ -7,6 +7,13 @@
 A modern stopwatch web application built with **TypeScript**, **HTML**, and **CSS**. It supports lap tracking, animated buttons, and a responsive layout.
 
 > 🔗 **Live Demo:** [spectacular-praline-6598a5.netlify.app](https://spectacular-praline-6598a5.netlify.app/)
+> 📁 **GitHub Repo:** [PRODIGY_WB_02](https://github.com/HENRY-AIFST/PRODIGY_WB_02)
+
+---
+## 📌 Internship Task_02
+
+> ✅ **This project is part of my Web Development internship at [Prodigy InfoTech](https://prodigyinfotech.dev/)**.  
+> The task was to **develop a fully functional stopwatch web application** using TypeScript, HTML, and CSS with features such as lap tracking and reset functionality.
 
 ---
 
@@ -41,14 +48,14 @@ A modern stopwatch web application built with **TypeScript**, **HTML**, and **CS
 
 PRODIGY_WB_02/
 ├── src/
-│ └── index.ts # Stopwatch logic
+│ └── index.ts # TypeScript logic
 ├── dist/
 │ └── index.js # Compiled JS output
-├── index.html # Webpage markup
-├── style.css # UI styling
-├── tsconfig.json # TS config
-└── README.md
-
+│ └── assets/ # UI images
+├── index.html # Main HTML page
+├── style.css # Styling
+├── tsconfig.json # TypeScript config
+└── README.md # Project info
 ---
 
 ## ⚙️ Getting Started
@@ -59,11 +66,13 @@ PRODIGY_WB_02/
 - Install TypeScript globally:
   ```bash
   npm install -g typescript
+🛠️ Run Locally
 git clone https://github.com/HENRY-AIFST/PRODIGY_WB_02.git
 cd PRODIGY_WB_02
-tsc          # Compile TypeScript
+tsc         # Compile TypeScript to JavaScript
+npx serve . # Serve the app locally
 
-npx serve .
+
 
 🧩 Future Enhancements
 
@@ -80,15 +89,13 @@ This project is licensed under the MIT License.
 
 🙋‍♂️ Author
 GitHub: @HENRY-AIFST
+
+Email: rahul140706@gmail.com
+
 Live App: Netlify Deployment
 
 ⭐ If you found this project helpful, consider starring it!
 
 ---
 
-✅ **Next Steps for You:**
 
-- Replace `assets/stopwatch-ui.png` with an actual screenshot.
-- Commit this `README.md` to your GitHub repo.
-
-Want me to generate badge images for things like "100% TypeScript" or "Responsive Design"?
